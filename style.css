@@ -1,0 +1,28 @@
+.sun-checkbox {
+  position: absolute;
+  top: 662px;
+  left: 2415px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  image-rendering: optimizeSpeed;
+}
+#time {
+  display: none;
+}
+#clickable-svg {
+  display: none;
+}
+.fa-sun {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.sun-checkbox {
+  transition: all 0.3s ease-in-out;
+}
+
+.sun-checked {
+  transform: scale(1.2);
+}
